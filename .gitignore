@@ -1,0 +1,6 @@
+# Project exclude paths
+/consumer/target/
+/link-consumer/target/
+/link-interface/target/
+/link-provider/target/
+/provider/target/

@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="link-consumer:war exploded">
+    <output-path>$PROJECT_DIR$/link-consumer/target/link-consumer-1.0.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>link-consumer</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="link-consumer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.18" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.5" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="archive" name="link-interface-1.0.0.jar">
+            <element id="module-output" name="link-interface" />
+          </element>
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/link-consumer/target/link-consumer-1.0.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="link-consumer/web/Web" />
+    </root>
+  </artifact>
+</component>
